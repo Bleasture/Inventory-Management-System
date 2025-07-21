@@ -16,22 +16,19 @@ This is a simple **Inventory Management System** developed in **Java** and backe
 - **MySQL** database installed and running.
  ## Setup
 
-1. **Clone the repository**:
-   ```bash
+1. Clone the repository:
+   ```sh
    git clone https://github.com/Bleasture/Inventory-Management-System.git
    cd inventory-management
 
-2. **Create a database inventory_db**:
-   ```bash
+2. Create a database **inventory_db** and **items table**:
+   ```sql
    CREATE DATABASE inventory_db;
    USE inventory_db;
-
-   -Create the items table:
-   ```bash
+   
    CREATE TABLE items (
-    id INT PRIMARY KEY AUTO_INCREMENT,
-    name VARCHAR(100) NOT NULL,
-    quantity INT NOT NULL,
-    price DOUBLE NOT NULL
-    );
-3.
+   id INT PRIMARY KEY AUTO_INCREMENT,
+   name VARCHAR(100) NOT NULL,
+   quantity INT NOT NULL,
+   price DOUBLE NOT NULL
+   );
