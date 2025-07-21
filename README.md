@@ -18,7 +18,7 @@ This is a simple **Inventory Management System** developed in **Java** and backe
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/inventory-management.git
+   git clone https://github.com/Bleasture/Inventory-Management-System.git
    cd inventory-management
 
 2. **Create a database inventory_db**:
