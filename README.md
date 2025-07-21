@@ -25,12 +25,13 @@ This is a simple **Inventory Management System** developed in **Java** and backe
    ```bash
    CREATE DATABASE inventory_db;
    USE inventory_db;
-3. **Create the items table**:
+
+   -Create the items table:
    ```bash
    CREATE TABLE items (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100) NOT NULL,
     quantity INT NOT NULL,
     price DOUBLE NOT NULL
-   );
-4. **
+    );
+3.
